@@ -9,10 +9,6 @@ import tensorflow.keras.backend as K
 from configargparse import ArgParser
 
 
-# import argparse
-# from tensorpack import *
-# from tensorpack.tfutils.symbolic_functions import *
-# from tensorpack.tfutils.summary import *
 
 import torchvision
 
