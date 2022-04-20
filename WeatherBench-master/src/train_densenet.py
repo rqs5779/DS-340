@@ -261,7 +261,7 @@ def main(datadir, vars, filters, kernels, lr, activation, dr, batch_size, patien
 
     # Train model
     # TODO: Learning rate schedule
-    model.fit(dg_train, epochs=100, validation_data=dg_valid,
+    model.fit(dg_train, epochs=200, validation_data=dg_valid,
                       callbacks=[tf.keras.callbacks.EarlyStopping(
                           monitor='val_loss',
                           min_delta=0,
