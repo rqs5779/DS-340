@@ -1,0 +1,8 @@
+# NN config file
+datadir: /Users/raymond/Desktop/Homework/DS-340W/WeatherBench
+model_save_fn: /Users/raymond/Desktop/Homework/DS-340W/WeatherBench/baselines/saved_models/dn_3d.h5
+pred_save_fn: /Users/raymond/Desktop/Homework/DS-340W/WeatherBench/baselines/dn_3d.nc
+vars: [z, t]
+filters: [64, 64, 64, 64, 2]
+kernels: [5, 5, 5, 5, 5]
+lead_time: 72
